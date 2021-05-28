@@ -9,6 +9,8 @@ int main(){
 			val2=val1;
 			val1=arr[i];
 		}
-	}
+		else if(a[i]>val2 && a[i]!=val1){
+			val2=a[i];
+		}
 	cout<<"Second largest element \n"<<val2;
 }
